@@ -5697,6 +5697,18 @@ p {
 }
 
 
+.noAnchorStyle {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.noAnchorStyle:hover {
+  opacity: .5;
+}
+
+
 .bg-projects {
   background: #1E1F25;
 }

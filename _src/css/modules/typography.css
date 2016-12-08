@@ -69,3 +69,13 @@ p {
 .fBigLink-active {
   color: #2C2F32;
 }
+
+.noAnchorStyle {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.noAnchorStyle:hover {
+  opacity: .5;
+}
