@@ -1,0 +1,102 @@
+---
+layout: default
+---
+
+<div class="container mb5 overflow-hidden">
+  <div class="pv5 pl4">
+    <h1 class="mb0">Jase Coop</h1>
+    <h2 class="fCaps mt0">Freelance digital designer + developer</h2>
+  </div>
+
+  <div class="w-100 mb5 overflow-hidden relative">
+    <div class="w-100 w-50-ns fl-ns relative overflow-hidden">
+      <div class="fHorz">
+        Selected Work
+      </div>
+      <div class="pl4">
+        {% for post in site.posts %}
+          <div class="mb2"><a href="{{post.url}}" class="fBigLink">{{ post.title }}</a></div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+
+  <div class="w-100">
+
+    <div class="w-100 w-50-ns fl-ns relative overflow-hidden">
+      <div class="fl overflow-hidden">
+        <div class="fHorz">
+          About
+        </div>
+        <div class="pl4 pr5">
+          <p class="mt0">I’m Jase Coop, a digital designer and developer based in London.</p>
+
+          <p>I’m available for the design, development and branding of digital products and services.</p>
+
+          <p>Working with a variety of companies, from startups to large corporates, my role has seen me act as either a designer embedded within a team, or a small studio delivering the design, build and branding of a website or app.</p>
+
+          <p>As a designer and developer, many projects involve me implementing the front-end (and occasionally back-end) code I’ve designed. In some scenarios this might be me designing and building prototypes, in others, designing and building out a custom CMS. This varies from project to project.</p>
+
+          <p>My design process is user-centered and I’m a fan of the Jobs To Be Done framework in order to establish and prioritise user, business and techonology objectives.</p>
+        </div>
+      </div>
+
+
+      <div class="mt5 fl overflow-hidden relative mb5 mb0-ns">
+        <div class="fHorz">
+          Contact
+        </div>
+
+        <div class="pl4 pr5">
+          <p>For work enquires, please get in touch. I’d be happy to run you more through my process on previous projects and discuss more about how I might fit into your team over coffee.</p>
+          <a href="mail-to:jase@jasecoop.com" class="fBigLink">jase@jasecoop.com</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-100 w-40-ns relative fl-ns">
+      <div class="fHorz">
+        Clients
+      </div>
+      <div class="pl4">
+        <div class="mb3">
+          <div class="f4">Rainmaking / startupbootcamp.org</div>
+          <div class="fCaps">2016</div>
+        </div>
+        <div class="mb3">
+          <div class="f4">Circadian Rhythms / NTS</div>
+          <div class="fCaps">Current</div>
+        </div>
+        <div class="mb3">
+          <div class="f4">Jaguar Land Rover</div>
+          <div class="fCaps">2015 / 2016</div>
+        </div>
+        <div class="mb3">
+          <div class="f4">GoodYears Records</div>
+          <div class="fCaps">2016</div>
+        </div>
+        <div class="mb3">
+          <div class="f4">Open Utility</div>
+          <div class="fCaps">2015</div>
+        </div>
+        <div class="mb3">
+          <div class="f4">Overly / Richard Antwi</div>
+          <div class="fCaps">2015</div>
+        </div>
+        <div class="mb3">
+          <div class="f4">Silicon Milk Roundabout</div>
+          <div class="fCaps">2015</div>
+        </div>
+        <div class="mb3">
+          <div class="f4">Makeshift</div>
+          <div class="fCaps">2014</div>
+        </div>
+        <div class="mb3">
+          <div class="f4">FutureGov</div>
+          <div class="fCaps">2014</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

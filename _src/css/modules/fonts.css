@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'NittiGrotesk';
+  src: url('../fonts/NittiGrotesk.eot');
+}
+@font-face {
+  font-family: 'NittiGrotesk';
+  src: url('../fonts/NittiGrotesk.woff') format('woff'),
+  url('../fonts/NittiGrotesk.svg#NittiGrotesk') format('svg');
+}
+
+@font-face {
+  font-family: 'NittiGrotesk-Bold';
+  src: url('../fonts/NittiGrotesk-Bold.eot');
+}
+@font-face {
+  font-family: 'NittiGrotesk-Bold';
+  src: url('../fonts/NittiGrotesk-Bold.woff') format('woff'),
+  url('../fonts/NittiGrotesk-Bold.svg#NittiGrotesk-Bold') format('svg');
+}
+
+
+@font-face {
+  font-family: 'NittiGrotesk-Light';
+  src: url('../fonts/NittiGrotesk-Light.eot');
+}
+
+@font-face {
+  font-family: 'NittiGrotesk-Light';
+  src: url('../fonts/NittiGrotesk-Light.woff') format('woff'),
+  url('../fonts/NittiGrotesk-Bold.svg#NittiGrotesk-Light') format('svg');
+}
+
+
+
+@font-face {
+  font-family: 'NittiGrotesk-Medium';
+  src: url('../fonts/NittiGrotesk-Medium.eot');
+}
+
+@font-face {
+  font-family: 'NittiGrotesk-Medium';
+  src: url('../fonts/NittiGrotesk-Medium.woff') format('woff'),
+  url('../fonts/NittiGrotesk-Bold.svg#NittiGrotesk-Medium') format('svg');
+}

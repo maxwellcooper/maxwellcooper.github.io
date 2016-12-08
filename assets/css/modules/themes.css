@@ -1,0 +1,22 @@
+.theme-jlr {
+  background: #F0F6F8;
+}
+
+.theme-piclo {
+  background: #F5FFFC;
+}
+
+.theme-overly {
+  background: #F2F2F2;
+}
+
+.theme-cr {
+  background: #1E1F25;
+  color: #fff;
+}
+
+.theme-jlr .bw1,
+.theme-overly .bw1,
+.theme-piclo .bw1 {
+  border-color: #000;
+}

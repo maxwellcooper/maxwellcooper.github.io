@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+<div class="relative">
+  <div class="container pv3 overflow-hidden">
+    <div class="w-100 w-50-ns fl">
+      <h1 class="mb0 f4">Jase Coop</h1>
+      <h2 class="fCaps mt0">Freelance digital designer + developer</h2>
+    </div>
+    <div class="w-100 w-50-ns fl">
+      <h1 class="mb0 f4">Project</h1>
+      <h2 class="fCaps mt0">{{ page.title }}</h2>
+    </div>
+  </div>
+</div>
+
+<div class="w-100 h-75 db pb5">
+  <ul class="bxslider">
+    {% for image in page.images %}
+      <li class="bxslide" data-desc="{{image.description}}">
+        <div class="w-100 h-100 db contain no-repeat center bg-center" style="background-image: url({{image.imageUrl}});"></div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="overflow-hidden pb4">
+  <div class="container overflow-hidden pv4 b--solid bw1 bt-0 bl-0 br-0">
+    <div class="w-100 w-50-ns fl pr0 pr4-ns mb4 mb0-ns" id="desc"></div>
+    <div class="w-100 w-50-ns fl" id="index"></div>
+  </div>
+</div>
+
+<div class="w-100 overflow-hidden pb5">
+  <div class="container">
+    <div class="w-100 w-50-ns fl pr5" id="desc">
+      {{ content }}
+    </div>
+    <div class="w-100 w-50-ns fl" id="index">
+      {% for skill in page.skills %}
+        <div>{{ skill.skill }}</div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+
+<div class="bg-white overflow-hidden">
+  <div class="container mt5">
+    <div class="w-100 mb5 overflow-hidden relative fl">
+      <div class="w-100 w-50-ns fl-ns relative overflow-hidden mb4 mb0-ns">
+        <div class="fHorz">
+          Selected Work
+        </div>
+        <div class="pl4">
+          {% for post in site.posts %}
+            <div class="mb2">
+              <a href="{{post.url}}" class="fBigLink {% if page.theme == post.theme %}fBigLink-active{% endif %}">{{ post.title }}</a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="w-100 w-50-ns fl overflow-hidden relative">
+        <div class="fHorz">
+          Contact
+        </div>
+
+        <div class="pl4 pr5">
+          <p>For work enquires, please get in touch. I’d be happy to run you more through my process on previous projects and discuss more about how I might fit into your team over coffee.</p>
+          <a href="mail-to:jase@jasecoop.com" class="fBigLink">jase@jasecoop.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
