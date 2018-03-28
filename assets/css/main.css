@@ -5651,16 +5651,6 @@ p {
   text-transform: uppercase;
   font-family: 'NittiGrotesk';
   font-size: 12px;
-  -ms-transform:rotate(-90deg); /* IE 9 */
- -ms-transform-origin: 0 0;
-   -moz-transform:rotate(-90deg); /* Firefox */
- -moz-transform-origin: 0 0;
-   -webkit-transform:rotate(-90deg); /* Safari and Chrome */
-   -webkit-transform-origin:0 0;
-   -o-transform:rotate(-90deg); /* Opera */
- -o-transform-origin: 0 0;
-  position: absolute;
-  top: 0;
 }
 
 
