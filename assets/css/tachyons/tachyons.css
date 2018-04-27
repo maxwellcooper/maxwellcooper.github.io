@@ -1244,6 +1244,11 @@ input[type="url"],
 */
 
 
+.left-50 {
+  margin-left: 50%;
+}
+
+
 .top-0    { top:    0; }
 
 
@@ -1339,6 +1344,10 @@ input[type="url"],
     bottom: 0;
     left: 0;
   }
+
+.left-50-ns {
+  margin-left: 50%;
+}
 }
 
 

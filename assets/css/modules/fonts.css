@@ -1,34 +1,81 @@
 @font-face {
+  font-family: 'Abhaya Regular';
+  src: url('../fonts/AbhayaLibre-Regular.eot');
+  src: url('../fonts/AbhayaLibre-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AbhayaLibre-Regular.woff2') format('woff2'),
+  url('../fonts/AbhayaLibre-Regular.woff') format('woff'),
+  url('../fonts/AbhayaLibre-Regular.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AbhayaSemiBold';
+  src: url('../fonts/AbhayaLibre-SemiBold.eot');
+  src: url('../fonts/AbhayaLibre-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AbhayaLibre-SemiBold.woff2') format('woff2'),
+  url('../fonts/AbhayaLibre-SemiBold.woff') format('woff'),
+  url('../fonts/AbhayaLibre-SemiBold.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Akzidenz Extended';
+  src: url('../fonts/AkzidenzGrotExtBQ-Regular.eot');
+  src: url('../fonts/AkzidenzGrotExtBQ-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AkzidenzGrotExtBQ-Regular.woff2') format('woff2'),
+  url('../fonts/AkzidenzGrotExtBQ-Regular.woff') format('woff'),
+  url('../fonts/AkzidenzGrotExtBQ-Regular.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Akzidenz Black';
+  src: url('../fonts/AkzidenzGroteskCEBlack.eot');
+  src: url('../fonts/AkzidenzGroteskCEBlack.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AkzidenzGroteskCEBlack.woff2') format('woff2'),
+  url('../fonts/AkzidenzGroteskCEBlack.woff') format('woff'),
+  url('../fonts/AkzidenzGroteskCEBlack.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
   font-family: 'NittiGrotesk';
   src: url('../fonts/NittiGrotesk.eot');
 }
+
 @font-face {
   font-family: 'NittiGrotesk';
   src: url('../fonts/NittiGrotesk.woff') format('woff'),
   url('../fonts/NittiGrotesk.svg#NittiGrotesk') format('svg');
 }
+
 @font-face {
   font-family: 'NittiGrotesk-Bold';
   src: url('../fonts/NittiGrotesk-Bold.eot');
 }
+
 @font-face {
   font-family: 'NittiGrotesk-Bold';
   src: url('../fonts/NittiGrotesk-Bold.woff') format('woff'),
   url('../fonts/NittiGrotesk-Bold.svg#NittiGrotesk-Bold') format('svg');
 }
+
 @font-face {
   font-family: 'NittiGrotesk-Light';
   src: url('../fonts/NittiGrotesk-Light.eot');
 }
+
 @font-face {
   font-family: 'NittiGrotesk-Light';
   src: url('../fonts/NittiGrotesk-Light.woff') format('woff'),
   url('../fonts/NittiGrotesk-Bold.svg#NittiGrotesk-Light') format('svg');
 }
+
 @font-face {
   font-family: 'NittiGrotesk-Medium';
   src: url('../fonts/NittiGrotesk-Medium.eot');
 }
+
 @font-face {
   font-family: 'NittiGrotesk-Medium';
   src: url('../fonts/NittiGrotesk-Medium.woff') format('woff'),

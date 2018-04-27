@@ -1244,6 +1244,11 @@ input[type="url"],
 */
 
 
+.left-50 {
+  margin-left: 50%;
+}
+
+
 .top-0    { top:    0; }
 
 
@@ -1339,6 +1344,10 @@ input[type="url"],
     bottom: 0;
     left: 0;
   }
+
+.left-50-ns {
+  margin-left: 50%;
+}
 }
 
 
@@ -5563,6 +5572,89 @@ body {
 }
 
 
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+
+
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+
+.captainRik {
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 10000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 10000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 10000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@font-face {
+  font-family: 'Abhaya Regular';
+  src: url('../fonts/AbhayaLibre-Regular.eot');
+  src: url('../fonts/AbhayaLibre-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AbhayaLibre-Regular.woff2') format('woff2'),
+  url('../fonts/AbhayaLibre-Regular.woff') format('woff'),
+  url('../fonts/AbhayaLibre-Regular.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+
+@font-face {
+  font-family: 'AbhayaSemiBold';
+  src: url('../fonts/AbhayaLibre-SemiBold.eot');
+  src: url('../fonts/AbhayaLibre-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AbhayaLibre-SemiBold.woff2') format('woff2'),
+  url('../fonts/AbhayaLibre-SemiBold.woff') format('woff'),
+  url('../fonts/AbhayaLibre-SemiBold.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+
+@font-face {
+  font-family: 'Akzidenz Extended';
+  src: url('../fonts/AkzidenzGrotExtBQ-Regular.eot');
+  src: url('../fonts/AkzidenzGrotExtBQ-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AkzidenzGrotExtBQ-Regular.woff2') format('woff2'),
+  url('../fonts/AkzidenzGrotExtBQ-Regular.woff') format('woff'),
+  url('../fonts/AkzidenzGrotExtBQ-Regular.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+
+@font-face {
+  font-family: 'Akzidenz Black';
+  src: url('../fonts/AkzidenzGroteskCEBlack.eot');
+  src: url('../fonts/AkzidenzGroteskCEBlack.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AkzidenzGroteskCEBlack.woff2') format('woff2'),
+  url('../fonts/AkzidenzGroteskCEBlack.woff') format('woff'),
+  url('../fonts/AkzidenzGroteskCEBlack.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+
 @font-face {
   font-family: 'NittiGrotesk';
   src: url('../fonts/NittiGrotesk.eot');
@@ -5617,27 +5709,47 @@ body {
 
 body {
   font-family: 'NittiGrotesk';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+
+.f-abhayaReg {
+  font-family: 'Abhaya Regular';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+
+.f-abhayaSemibold {
+  font-family: 'AbhayaSemiBold';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+
+.f-akzExt {
+  font-family: 'Akzidenz Extended';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+
+.f-akz {
+  font-family: 'Akzidenz Black';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
 }
 
 
 h1, h2, h3, h4, h5 {
   font-size: 16px;
   font-family: 'NittiGrotesk-Bold';
-}
-
-
-.f4 {
-  font-size: 16px;
-  font-family: 'NittiGrotesk-Bold';
-  letter-spacing: 1px;
-}
-
-
-.fCaps {
-  text-transform: uppercase;
-  font-family: 'NittiGrotesk';
-  font-size: 12px;
-  letter-spacing: 1px;
 }
 
 
@@ -5696,6 +5808,16 @@ p {
 
 .noAnchorStyle:hover {
   opacity: .5;
+}
+
+
+a {
+  color: #000;
+}
+
+
+.f-11 {
+  font-size: 12px;
 }
 
 

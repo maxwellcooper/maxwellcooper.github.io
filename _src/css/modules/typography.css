@@ -1,5 +1,36 @@
 body {
   font-family: 'NittiGrotesk';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+.f-abhayaReg {
+  font-family: 'Abhaya Regular';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+.f-abhayaSemibold {
+  font-family: 'AbhayaSemiBold';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+.f-akzExt {
+  font-family: 'Akzidenz Extended';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+.f-akz {
+  font-family: 'Akzidenz Black';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
 }
 
 h1, h2, h3, h4, h5 {
@@ -7,18 +38,6 @@ h1, h2, h3, h4, h5 {
   font-family: 'NittiGrotesk-Bold';
 }
 
-.f4 {
-  font-size: 16px;
-  font-family: 'NittiGrotesk-Bold';
-  letter-spacing: 1px;
-}
-
-.fCaps {
-  text-transform: uppercase;
-  font-family: 'NittiGrotesk';
-  font-size: 12px;
-  letter-spacing: 1px;
-}
 
 p {
   padding-top: 0;
@@ -68,4 +87,12 @@ p {
 
 .noAnchorStyle:hover {
   opacity: .5;
+}
+
+a {
+  color: #000;
+}
+
+.f-11 {
+  font-size: 12px;
 }
