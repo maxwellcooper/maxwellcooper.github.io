@@ -11,18 +11,23 @@ layout: default
   <div class="w-100 h-100 w-50-ns fixed-ns left-0 tc flex justify-center items-center">
 
     <div>
-        <h1 class="f3 f-akzExt mb2">Maxwell Cooper</h1>
-        <p class="mb4 mt0">
-          Copywriter. Marketer. Copywriter.
-        </p>
-        <div class="contact">
-          <div>
-            <a href="" class="f11 no-underline bg-black-10 pa1 ph2 black br2">About</a>
+        <h1 class="f2 f-akzExt mb0 mt0" id="name">Maxwell Cooper</h1>
+        <div class="absolute mt2 w-100 left-0" id="details">
+          <p class="mb4 mt0">
+            Copywriter. Marketer. Copywriter.
+          </p>
+          <div class="contact">
+            <div>
+              <a href="" class="aboutmore btn f11 no-underline bg-black-10 pa1 ph2 black br2">About</a>
+              <div id="about">
+                Hi i'm max this is about me lol
+              </div>
+            </div>
+
+            <a href="http://twitter.com/maxwellcoop">
+
+            </a>
           </div>
-
-          <a href="http://twitter.com/maxwellcoop">
-
-          </a>
         </div>
     </div>
 
@@ -30,75 +35,43 @@ layout: default
 
   <div class="w-100 h-100 w-50-ns left-50">
 
+    <div id="intro" class="fixed w-50-ns right-0 top-0 bg-white h-100 flex justify-center items-center tc">
+      <h2 class="mb0 mt0 f-abhayaReg f3">
+        Copywriter. Marketer. Copywriter.
+      </h2>
+    </div>
+
     <div class="projects h-100">
 
 
-      <div class="project tc h-100 flex justify-center items-center ph5">
-        <div>
-          <div class="w-100">
-            <img src="https://blogtelecomarketing.files.wordpress.com/2011/11/group-three4.gif" width="100" />
-          </div>
+      {% for post in site.posts %}
+
+        <div class="project tc flex justify-center items-center mh5">
           <div>
-            <h3 class="f3 f-abhayaReg">“Milking Gigabytes”</h3>
-            <div class="mb3">Messaging-led experimentation for a SIM-only sub brand</div>
-            <a class="no-underline bg-black-10 pa1 ph2 black br2" href="/">Read more</a>
+            <div class="w-100">
+              <img src="https://blogtelecomarketing.files.wordpress.com/2011/11/group-three4.gif" width="100" />
+            </div>
+            <div>
+              <h3 class="f3 f-abhayaReg mb0">“{{ post.title }}”</h3>
+              <div class="mb3 mt2">{{ post.subtitle }}</div>
+              <a class="btn readmore no-underline bg-black-10 pa1 ph2 black br2" href="/">{{ post.calltoaction }}</a>
+
+
+              <div class="content mt5 mb4 tal">
+                <div class="w-100 tc">
+                  <img src="{{ post.heroImg }}" />
+                </div>
+                <div class="tl mt3 mb5">
+                  {{ post.content }}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="project tc h-100 flex justify-center items-center ph5">
-        <div>
-          <div class="w-100">
-            <img src="https://www.moonpig.com/uk/images/moonpig-logo.png" width="200" />
-          </div>
-          <div>
-            <h3 class="f3 f-abhayaReg">“A lipstickless pig”</h3>
-            <div class="mb3">Boosting sales of gifts & flowers in the midst of a rebrand</div>
-            <a class="no-underline bg-black-10 pa1 ph2 black br2" href="/">More again</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="project tc h-100 flex justify-center items-center ph5">
-        <div>
-          <div class="w-100">
-            <img src="https://www.bankingtech.com/files/2016/05/Atom-Bank-logo.jpg" width="200" />
-          </div>
-          <div>
-            <h3 class="f3 f-abhayaReg">“Bank curious”</h3>
-            <div class="mb3">Building a bank, and launching a brand</div>
-            <a class="no-underline bg-black-10 pa1 ph2 black br2" href="/">Hit me!</a>
-          </div>
-        </div>
-      </div>
+      {% endfor %}
 
 
-      <div class="project tc h-100 flex justify-center items-center ph5">
-        <div>
-          <div class="w-100">
-            <img src="https://d3vv6lp55qjaqc.cloudfront.net/items/0E1R3e2m1V2e0p061a0X/Screen%20Shot%202018-04-27%20at%2022.56.41.png" width="200" />
-          </div>
-          <div>
-            <h3 class="f3 f-abhayaReg">“Humans not robots”</h3>
-            <div class="mb3">Content led campaign for the UK’s biggest tech jobs fair</div>
-            <a class="no-underline bg-black-10 pa1 ph2 black br2" href="/">Again!</a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="project tc h-100 flex justify-center items-center ph5">
-        <div>
-          <div class="w-100">
-            <img src="https://www.trueup.com/wp-content/themes/trueup/images/logo.svg" width="100" />
-          </div>
-          <div>
-            <h3 class="f3 f-abhayaReg">“Hacking content”</h3>
-            <div class="mb3">Lead-gen focussed content strategy</div>
-            <a class="no-underline bg-black-10 pa1 ph2 black br2" href="/">Moar!</a>
-          </div>
-        </div>
-      </div>
 
 
 

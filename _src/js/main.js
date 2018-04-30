@@ -1,11 +1,8 @@
 var jquery = require('./lib/jquery');
-// var history = require('./modules/history');
-// var jekyllAjax = require('./modules/jekyllAjax');
-var bx = require('./lib/bxslider');
-var fHorz = require('./modules/fHorz');
-var slider = require ('./modules/slider')
+var intro = require('./modules/intro');
 
 jquery();
-bx();
-fHorz();
-slider();
+intro();
+
+
+

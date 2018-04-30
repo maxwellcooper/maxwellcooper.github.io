@@ -1,0 +1,12 @@
+---
+layout: post
+client: "Three"
+title:  "Milking Gigabytes"
+date:   2016-11-29 18:57:44 +0000
+subtitle: "Messaging-led experimentation for a SIM-only sub brand"
+logo_url: "https://blogtelecomarketing.files.wordpress.com/2011/11/group-three4.gif"
+heroImg: "https://photos-2.dropbox.com/t/2/AABo00cvO54XAMwauXJSDnVoSmVr8munmzP6p5EssrXDuA/12/813182/png/32x32/1/_/1/2/SMARTY_ReferAFriend_Carousel_v1_rD.png/EI_NYxjO3PusASACKAI/TRvBZ6_Sp_jnby7vFSZ-N9BcBKl0wCDfM7O0zGTn-oo?preserve_transparency=1&size=2048x1536&size_mode=3"
+calltoaction: "Read More"
+---
+
+Built a messaging framework that informed the entire campaign, focusing on product proof-points. 1000+ ads written, and multiple web page variations produced.
