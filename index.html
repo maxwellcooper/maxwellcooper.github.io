@@ -10,7 +10,7 @@ layout: default
 
 <div class="w-100 h-100">
 
-  <div class="w-100 h-100 w-50-ns fixed-ns left-0 tc flex justify-center items-center">
+  <div class="w-100 h-100 w-40-ns fixed-ns left-0 tc flex justify-center items-center">
 
     <div>
         <h1 class="f2 f-akzExt mb0 mt0" id="name">Maxwell Cooper</h1>
@@ -35,7 +35,7 @@ layout: default
 
   </div>
 
-  <div class="w-100 h-100 w-50-ns left-50">
+  <div class="w-100 h-100 w-60-ns left-40">
 
     <div id="intro" class="fixed w-50-ns right-0 top-0 bg-white h-100 flex justify-center items-center tc">
       <h2 class="mb0 mt0 f-abhayaReg f3">
@@ -48,20 +48,23 @@ layout: default
 
       {% for post in site.posts %}
 
-        <div class="project tc flex justify-center items-center mh5">
+        <div class="project tc flex justify-center items-center mh5" data-index="{{ forloop.index }}">
           <div>
-            <div class="w-100">
-              <img src="https://blogtelecomarketing.files.wordpress.com/2011/11/group-three4.gif" width="100" />
-            </div>
             <div>
+              <img src="{{ post.logo_url }}" width="150" class="mb4" />
               <h3 class="f3 f-abhayaReg mb0">“{{ post.title }}”</h3>
               <div class="mb3 mt2">{{ post.subtitle }}</div>
               <a class="btn readmore no-underline bg-black-10 pa1 ph2 black br2" href="/">{{ post.calltoaction }}</a>
 
-
               <div class="content mt5 mb4 tal">
-                <div class="w-100 tc">
-                  <img src="{{ post.heroImg }}" />
+                <div class="w-100">
+                  <div class="bxslider">
+                    {% for image in post.images %}
+                      <div data-desc="{{image.description}}">
+                        <img width="1000" src="{{image.imageUrl}}"/>
+                      </div>
+                    {% endfor %}
+                  </div>
                 </div>
                 <div class="tl mt3 mb5">
                   {{ post.content }}

@@ -1,0 +1,21 @@
+---
+layout: post
+client: "_THREE"
+title:  "Milking Gigabytes"
+date:   2016-11-29 18:57:44 +0000
+subtitle: "Messaging-led experimentation for a SIM-only sub brand"
+logo_url: "https://s3.amazonaws.com/max-hosting/_THREE/logo.png"
+calltoaction: "Read More"
+images:
+  - image: Logo
+    description: Some description
+    imageUrl: https://s3.amazonaws.com/max-hosting/_THREE/_HEROS/1.png
+  - image: Logo
+    description: Some description
+    imageUrl: https://s3.amazonaws.com/max-hosting/_THREE/_HEROS/2.png
+  - image: Logo
+    description: Some description
+    imageUrl: https://s3.amazonaws.com/max-hosting/_THREE/_HEROS/3.png
+---
+
+Built a messaging framework that informed the entire campaign, focusing on product proof-points. 1000+ ads written, and multiple web page variations produced.

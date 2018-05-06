@@ -24,3 +24,25 @@
 #about {
   display: none;
 }
+
+.sliderLoad {
+  top: -9999px;
+  position: fixed;
+}
+
+.bx-wrapper {
+  box-shadow: none !important;
+}
+
+.project {
+  -webkit-transition: height 2s; /* Safari */
+  transition: width 2s;
+}
+
+.project-active {
+  padding-top: 40px;
+}
+
+.left-40 {
+  margin-left: 40%;
+}

@@ -1,83 +1,36 @@
 module.exports = function () {
-$(document).ready(function(){
+  // $(window).on('load',function(){
 
-  var whiteArrowRight = '<img src="/assets/images/arrow_right_white.svg" />';
-  var whiteArrowLeft = '<img src="/assets/images/arrow_left_white.svg" />';
-  var blackArrowRight = '<img src="/assets/images/arrow_right_black.svg" />';
-  var blackArrowLeft = '<img src="/assets/images/arrow_left_black.svg" />';
+  $(document).ready(function() {
 
-  var nextImg = blackArrowRight;
-  var prevImg = blackArrowLeft;
+    var sliders = $('.bxslider').map(function() {
+      return $(this).bxSlider();
+    });
 
-  if ($('body').hasClass('theme-cr')) {
-    nextImg = whiteArrowRight;
-    prevImg = whiteArrowLeft;
-  }
-
-  $('.bxslider').bxSlider({
-    nextText: nextImg,
-    prevText: prevImg,
-    infiniteLoop: false,
-    hideControlOnEnd: true,
-    captions: true,
-    pager: false,
-    onSliderLoad: function(currentIndex){
-      var desc = $('.bxslider li').eq(currentIndex).data('desc');
-      $('#desc').html(desc);
-
-      $('.bxslide').each(function(index) {
-        var i = index + 1;
-        if (i === 1) {
-          var html = '<div data-index="'+index+'" class="indexNo indexNo-active dib mr3 o-50">'+i+'</div>';
-        } else {
-          var html = '<div data-index="'+index+'" class="indexNo dib mr3 o-50">'+i+'</div>';
-        }
-        $('#index').append(html);
-      });
+    sliders.each(function() {
+      this.reloadSlider();
+    });
 
 
-    },
-    onSlideNext: function(newIndex){
-      var desc = $(newIndex).data('desc');
-      $('#desc').html(desc);
+    $('body').on('click', '.readmore', function(e){
+        e.preventDefault();
 
-      var $nextIndex = $('.indexNo-active').next();
-      $('.indexNo-active').removeClass('indexNo-active');
-      $nextIndex.addClass('indexNo-active');
+        var index = $(this).parents('.project').data('index');
+        var i = index - 1;
+        console.log('index',i);
+        sliders[i].reloadSlider();
 
-    },
-    onSlidePrev: function(newIndex){
-      var desc = $(newIndex).data('desc');
-      $('#desc').html(desc);
-      var $prevIndex = $('.indexNo-active').prev();
-      $('.indexNo-active').removeClass('indexNo-active');
-      $prevIndex.addClass('indexNo-active');
-    },
+        $(this).parents('.project').addClass('project-active');
+        $(this).parent().children('.content').fadeIn();
+        $(this).fadeOut();
+
+        var index = $(this).parents('.project').data('index');
+        var i = index - 1;
+        console.log('index',i);
+        sliders[i].reloadSlider();
+    });
+
   });
 
-  // $(document).keydown(function(e){
-  //   if (e.keyCode == 37) {
-  //     slider = $('.bxslider').bxSlider();
-  //     slider.goToPrevSlide();
-  //      return false;
-  //   }
-  //   if (e.keyCode == 39) {
-  //     slider = $('.bxslider').bxSlider();
-  //     slider.goToNextSlide();
-  //     return false;
-  //   }
-  // });
 
-
-  // $( 'body' ).on( 'click', '.indexNo', function(e){
-  //   if ( !$(this).hasClass('indexNo-active') ) {
-  //     var index = $(this).data('index');
-  //     var slider = $('.bxslider').bxSlider();
-  //     console.log(index)
-  //     slider.goToSlide(index);
-  //     // $('.indexNo-active').removeClass('indexNo-active');
-  //     // $('.indexNo').eq(index).addClass('indexNo-active');
-  //   }
-  // });
-});
 }

@@ -1,0 +1,27 @@
+---
+layout: post
+client: "Siliconmilkroundabout"
+title:  "Humans not robots"
+date:   2016-11-29 18:57:44 +0000
+subtitle: "Awareness-raising content based on finding jobs within the tech sector. Ran a cold email B2B campaign, which resulted in a ROI of 2000%"
+logo_url: "https://s3.amazonaws.com/max-hosting/_SMR/logo.png"
+images:
+  - image: Logo
+    description: Some description
+    imageUrl: https://s3.amazonaws.com/max-hosting/_SMR/_HEROES/1.png
+  - image: Logo
+    description: Some description
+    imageUrl: https://s3.amazonaws.com/max-hosting/_SMR/_HEROES/2.png
+  - image: Logo
+    description: Some description
+    imageUrl: https://s3.amazonaws.com/max-hosting/_SMR/_HEROES/3.png
+  - image: Logo
+    description: Some description
+    imageUrl: https://s3.amazonaws.com/max-hosting/_SMR/_HEROES/4.png
+calltoaction: "Read More"
+---
+
+The UK’s biggest tech jobs fair didn’t have a problem filling spaces, but they weren’t quite attracting the right audience. I created content that raised awareness of the event whilst speaking to a more senior audience. Blogs were created, and advert copy written - alongside supporting creatives - to attract senior jobseekers to the event.
+
+I also ran a B2B cold email campaign, with the objective of convincing established companies to exhibit at the event. These emails focused on the proof points of siliconmilkroundabout and pain points of hiring. The ROI of this campaign was 2000%.
+

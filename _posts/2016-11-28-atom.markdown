@@ -1,0 +1,38 @@
+---
+layout: post
+client: "Atom"
+title:  "Bank curious"
+date:   2016-11-29 18:57:44 +0000
+subtitle: "Building a bank, launching a brand"
+logo_url: "https://s3.amazonaws.com/max-hosting/_ATOM/logo.png"
+calltoaction: "Read More"
+images:
+  - image: Logo
+    description: Some description
+    imageUrl: https://s3.amazonaws.com/max-hosting/_ATOM/_HEROES/1.png
+  - image: Logo
+    description: Some description
+    imageUrl: https://s3.amazonaws.com/max-hosting/_ATOM/_HEROES/2.png
+  - image: Logo
+    description: Some description
+    imageUrl: https://s3.amazonaws.com/max-hosting/_ATOM/_HEROES/3.png
+  - image: Logo
+    description: Some description
+    imageUrl: https://s3.amazonaws.com/max-hosting/_ATOM/_HEROES/4.png
+  - image: Logo
+    description: Some description
+    imageUrl: https://s3.amazonaws.com/max-hosting/_ATOM/_HEROES/5.png
+  - image: Logo
+    description: Some description
+    imageUrl: https://s3.amazonaws.com/max-hosting/_ATOM/_HEROES/6.png
+  - image: Logo
+    description: Some description
+    imageUrl: https://s3.amazonaws.com/max-hosting/_ATOM/_HEROES/7.png
+  - image: Logo
+    description: Some description
+    imageUrl: https://s3.amazonaws.com/max-hosting/_ATOM/_HEROES/8.png
+---
+
+When I joined Atom I was required to build a presence on social media and construct their tone of voice. I also developed a content strategy with the main aim of raising awareness of Atom, and earning pre-registered sign ups.
+
+The Tone of Voice was pitched to execs as unprecedented within the UK financial sector. It needed to speak to a broad audience - from early adoption millenials to tech savvy Mums & Dads. As well as receiving rave reviews it also informed all marketing campaigns and was embedded into the customer service team throughout multiple training sessions which I conducted. Content created included, social media posts, emails, blogs, videos, and website copy.

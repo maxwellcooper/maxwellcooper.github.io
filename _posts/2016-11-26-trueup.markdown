@@ -1,0 +1,18 @@
+---
+layout: post
+client: "Siliconmilkroundabout"
+title:  "Hacking content"
+date:   2016-11-29 18:57:44 +0000
+subtitle: "Lead-gen focussed content strateg"
+logo_url: "https://s3.amazonaws.com/max-hosting/_TRUEUP/logo.jpg"
+images:
+  - image: Logo
+    description: Some description
+    imageUrl: https://s3.amazonaws.com/max-hosting/_TRUEUP/_HEROES/1.png
+calltoaction: "Read More"
+---
+
+During my time at TrueUp I developed a content strategy with the focus of generating leads. Written content focusing on the importance of testing and website optimisation positioned TrueUp as an idyllic marketing agency. During the time the blog was live, 7 suitable leads came in, with 5 turning to actual work.
+
+In an attempt to increase TrueUp’s presence within the marketing sector, I also wrote and entered 2 successful award submissions, receiving nominations for the Drum Marketing Awards 2018.
+
