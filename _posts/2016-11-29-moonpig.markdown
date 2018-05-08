@@ -1,9 +1,9 @@
 ---
 layout: post
-client: "Three"
+client: "Moonpig"
 title:  "A lipstickless pig"
 date:   2016-11-29 18:57:44 +0000
-subtitle: "Messaging-led experimentation for a SIM-only sub brand"
+subtitle: "Boosting sales of gifts & flowers in the midst of a rebrand"
 logo_url: "https://s3.amazonaws.com/max-hosting/_MOONPIG/logo.png"
 calltoaction: "Read More"
 images:
