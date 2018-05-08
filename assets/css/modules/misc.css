@@ -4,7 +4,7 @@
 
 .project {
   min-height: 100%;
-  border-bottom: solid 1px #000;
+  border-bottom: solid 1px rgba(00,00,00,.1);
 }
 
 .project > div {
@@ -43,6 +43,9 @@
   padding-top: 40px;
 }
 
-.left-40 {
+@media only screen and (min-width: 40em) {
+ .left-40 {
   margin-left: 40%;
 }
+}
+

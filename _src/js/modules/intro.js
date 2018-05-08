@@ -9,8 +9,6 @@ module.exports = function () {
     }, 2500);
 
 
-
-
     $('body').on('click', '.aboutmore', function(e){
         e.preventDefault();
         $('#about').fadeIn();
