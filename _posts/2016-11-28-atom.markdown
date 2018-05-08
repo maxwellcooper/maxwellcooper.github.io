@@ -33,6 +33,6 @@ images:
     imageUrl: https://s3.amazonaws.com/max-hosting/_ATOM/_HEROES/8.png
 ---
 
-When I joined Atom I was required to build a presence on social media and construct their tone of voice. I also developed a content strategy with the main aim of raising awareness of Atom, and earning pre-registered sign ups.
+When I joined Atom, I was required to build a presence on social media and construct their tone of voice. I also developed a content strategy with the primary aim of raising awareness of Atom and earning pre-registered sign-ups.
 
-The Tone of Voice was pitched to execs as unprecedented within the UK financial sector. It needed to speak to a broad audience - from early adoption millenials to tech savvy Mums & Dads. As well as receiving rave reviews it also informed all marketing campaigns and was embedded into the customer service team throughout multiple training sessions which I conducted. Content created included, social media posts, emails, blogs, videos, and website copy.
+The tone of voice was pitched to execs as unprecedented within the UK financial sector. It needed to speak to a broad audience - from early adopting millennials to tech-savvy Mums & Dads. As well as receiving rave reviews it also informed all marketing campaigns and was embedded into the customer service team throughout multiple training sessions which I conducted. Content created included social media posts, emails, blogs, videos, and website copy. 
