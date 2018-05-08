@@ -15,7 +15,8 @@ images:
 calltoaction: "Read More"
 ---
 
-To raise awareness of their new ‘product search’ feature, we ran a series of promotional ads for Westfield. We utilised a string of different messaging which we then pulled insights from to experiment on homepage copy.
+To raise awareness of their new ‘product search’ feature, I ran a series of promotional ads for Westfield. I utilised a string of different messaging which allowed me to pull insights from these experiments to inform homepage copy. 
 
-Variants of A/B tests were compiled with different messaging, all focusing on the usage of the search feature.
+Variants of A/B tests were compiled with different messaging, all focusing on the usage of the search feature. 
+
 
