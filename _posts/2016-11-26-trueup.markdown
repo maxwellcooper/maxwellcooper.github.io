@@ -3,7 +3,7 @@ layout: post
 client: "Siliconmilkroundabout"
 title:  "Hacking content"
 date:   2016-11-29 18:57:44 +0000
-subtitle: "Lead-gen focussed content strateg"
+subtitle: "Lead-gen focussed content strategy"
 logo_url: "https://s3.amazonaws.com/max-hosting/_TRUEUP/logo.jpg"
 images:
   - image: Logo
