@@ -18,4 +18,6 @@ images:
     imageUrl: https://s3.amazonaws.com/max-hosting/_THREE/_HEROS/3.png
 ---
 
-Built a messaging framework that informed the entire campaign, focusing on product proof-points. 1000+ ads written, and multiple web page variations produced.
+For this acquisition based project, I built a messaging framework that informed the entire campaign. This framework focused on 36 different proof-points of the SIM-only product. Alternative versions of copy were then experimented with through Facebook and Google’s ad platform alongside a mixture of segments and creatives. 
+
+Once we discovered the optimal messaging mix, we ran a series of campaigns with this insight. This insight also fed through to the CRO work where we ran multiple tests of different homepages, info pages, and checkouts leading to an impressive increase in conversion rate. 
