@@ -3,7 +3,7 @@ layout: post
 client: "Siliconmilkroundabout"
 title:  "Humans not robots"
 date:   2016-11-29 18:57:44 +0000
-subtitle: "Awareness-raising content based on finding jobs within the tech sector. Ran a cold email B2B campaign, which resulted in a ROI of 2000%"
+subtitle: "Awareness-raising content"
 logo_url: "https://s3.amazonaws.com/max-hosting/_SMR/logo.png"
 images:
   - image: Logo
