@@ -4,7 +4,7 @@ client: "Siliconmilkroundabout"
 title:  "Hacking content"
 date:   2016-11-29 18:57:44 +0000
 subtitle: "Lead-gen focussed content strategy"
-logo_url: "https://l.messenger.com/l.php?u=https%3A%2F%2Fs3.amazonaws.com%2Fmax-hosting%2F_TRUEUP%2Flogo.png&h=ATNo9LDezmIEA2q9m8R8j_Syc62h26KuRlKgG0OKtiaRg-wqR6GGGBFXoCACVJkApXBnT1Oq408I9UWX_JYP4DvjCozTKlGdfCLfVomg7MRXeNz3S_oVH3Nr"
+logo_url: "https://s3.amazonaws.com/max-hosting/_TRUEUP/logo.png"
 images:
   - image: Logo
     description: Some description
