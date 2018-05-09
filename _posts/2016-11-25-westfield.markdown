@@ -9,9 +9,6 @@ images:
   - image: Logo
     description: Some description
     imageUrl: https://s3.amazonaws.com/max-hosting/_WESTFIELD/_HEROES/1.png
-  - image: Logo
-    description: Some description
-    imageUrl: https://s3.amazonaws.com/max-hosting/_SMR/_HEROES/2.png
 calltoaction: "Read More"
 ---
 
