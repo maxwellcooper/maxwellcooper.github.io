@@ -9,13 +9,16 @@ calltoaction: "Read More"
 images:
   - image: Logo
     description: Some description
-    imageUrl: https://www.dl.dropboxusercontent.com/s/2l2146setyjjwas/Screen%20Shot%202020-01-07%20at%2017.20.39.png
+    imageUrl: https://www.dl.dropboxusercontent.com/s/rcgfqd08rv990d1/1.png?dl=0
   - image: Logo
     description: Some description
-    imageUrl: https://s3.amazonaws.com/max-hosting/_THREE/_HEROS/2.png
+    imageUrl: https://www.dl.dropboxusercontent.com/s/f0kbus1hlx8ycb3/2.png?dl=0
   - image: Logo
     description: Some description
-    imageUrl: https://s3.amazonaws.com/max-hosting/_THREE/_HEROS/3.png
+    imageUrl: https://www.dl.dropboxusercontent.com/s/4xfj24z54il4n3n/3.png?dl=0
+  - image: Logo
+    description: Some description
+    imageUrl: https://www.dl.dropboxusercontent.com/s/ztnjruvbza5paob/4.png?dl=0
 ---
 
 I am currently Bulb’s Marketing Writer. My main role is writing copy to promote the brand and convert users to switch their energy provider. During my time here I’ve worked on website copy, emails, digital ads, outdoor advertising, leaflets, blog posts, help pages and much, much more. In addition to this, I also manage the sponsorship of Dulwich Hamlet FC, formerly branded ‘the most hipster club in football’.
