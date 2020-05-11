@@ -1,7 +1,7 @@
 ---
 layout: post
 client: "Westfield"
-title:  "Windows shopping"
+title:  "Window shopping"
 date:   2016-11-29 18:57:44 +0000
 subtitle: "Optimising a non-transactional retail website"
 logo_url: "https://s3.amazonaws.com/max-hosting/_WESTFIELD/logo.png"
