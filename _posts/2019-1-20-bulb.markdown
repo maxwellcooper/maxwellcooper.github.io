@@ -1,7 +1,7 @@
 ---
 layout: post
 client: "2019-1-20-bulb.markdown"
-title:  "The Renewable Revolution"
+title:  "The renewable revolution"
 date:   2016-11-29 18:57:44 +0000
 subtitle: "In-house writer for the UK’s fastest growing private company"
 logo_url: "https://www.dl.dropboxusercontent.com/s/x0k9az7s5bpcmwz/Bulb%20png.png"
@@ -29,11 +29,11 @@ Here’s a little insight into some of the key aspects of my work:
 From one-off sends to A/B testing campaigns. Email open rate often averaged out at 62%, and click rate at 8%. I put this down to the structure and tone of voice within the emails that made the content easily digestible, which allowed the user to understand what they had to do.
 
 <strong>Web pages</strong>
-I tweaked and built new web pages working collaboratively with a range of stakeholders including Graphic Designers, Product Designers and Engineers. By using a straightforward tone of voice I was able to get information across quickly, which allowed us to present call to actions in strategic positions on the page resulting in a higher rate of conversion.
+I tweaked and built new web pages working collaboratively with a range of stakeholders including graphic designers, product designers and engineers. By using a straightforward tone of voice I was able to get information across quickly, which allowed us to present call to actions in strategic positions on the page resulting in a higher rate of conversion.
 
 <strong>Dulwich Hamlet FC </strong>
 While managing this sponsorship I created countless assets to promote a referral link that would give the club, and each reader who signed up, £50. Refreshing content every 10 days provided a range of challenges which pushed me to generate relevant and original content in tight deadlines. 
 
 <strong>Training</strong>
-Most Mondays were spent teaching a class of 20-30 new hires, Bulb’s Tone of Voice. I’d often welcome feedback and adapt the training based on these comments. My sessions proved a great success with an average NPS of 4.85/5.
+Most Mondays were spent teaching Bulb’s tone of voice to a class of 20-30 new hires. I’d often welcome feedback and adapt the training based on these comments. My sessions proved a great success with an average NPS of 4.85/5.
 
